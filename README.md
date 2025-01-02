@@ -1,31 +1,30 @@
-# Laboratório de Redes de Computadores
-# Trabalho I - Aplicações Cliente/Servidor TCP e UDP
+# TCP and UDP Client/Server Applications  
 
-#### Alunos:
-#### Gustavo Geyer Arrussul Winkler dos Santos
-#### Mateus de Carvalho de Freitas
+#### Students:  
+#### Gustavo Geyer Arrussul Winkler dos Santos  
+#### Mateus de Carvalho de Freitas  
 
-## Descrição
-Este repositório contém duas aplicações de exemplo de cliente/servidor implementadas usando os protocolos TCP e UDP. As aplicações são projetadas para permitir a comunicação entre um cliente e um servidor em uma rede local.
+## Description  
+This repository contains two example client/server applications implemented using the TCP and UDP protocols. The applications are designed to enable communication between a client and a server within a local network.  
 
-## Funcionalidades
+## Features  
 
-### Aplicação Cliente/Servidor TCP e UDP
-- O cliente pode se conectar a um servidor (TCO ou UDP) na rede.
-- Os clientes podem enviar mensagens de chat para o servidor.
-- O servidor retransmite as mensagens para os clientes conectados, permitindo uma comunicação de chat em grupo.
+### TCP and UDP Client/Server Application  
+- The client can connect to a server (TCP or UDP) on the network.  
+- Clients can send chat messages to the server.  
+- The server retransmits messages to connected clients, enabling group chat communication.  
 
-## Requisitos
-- Python 3.x
-- Biblioteca de soquetes (socket) do Python
+## Requirements  
+- Python 3.x  
+- Python socket library  
 
-## Executando as Aplicações
-- Execute o servidor correspondente (TCP ou UDP) em uma máquina da rede.
-- Execute o cliente correspondente (TCP ou UDP) em outra máquina ou na mesma máquina local para testar a comunicação.
+## Running the Applications  
+- Run the corresponding server (TCP or UDP) on a machine in the network.  
+- Run the corresponding client (TCP or UDP) on another machine or the same local machine to test communication.  
 
-Obs: o host default no cliente está como `localhost`, para executar em outra maquina é necessário verificar o `IP` da maquina que o servidor será executado e editar no cliente.
+Note: The default host for the client is set to `localhost`. To run it on a different machine, check the `IP` of the machine running the server and update it in the client configuration.  
 
-## Exemplos de Uso
-- Execute `python servidor.py` em uma máquina como servidor TCP.
-- Execute `python cliente.py` em outra máquina ou na mesma máquina local para se conectar ao servidor TCP.
+## Usage Examples  
+- Run `python servidor.py` on one machine as the TCP server.  
+- Run `python cliente.py` on another machine or the same local machine to connect to the TCP server.  
 
